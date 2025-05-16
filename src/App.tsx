@@ -1,4 +1,3 @@
-import { useState } from "react";
 import ziots from "./assets/ZIoTS202505.glb";
 import "@google/model-viewer";
 import "./App.css";
