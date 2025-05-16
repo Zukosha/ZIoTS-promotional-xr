@@ -1,4 +1,6 @@
-import ziots from "./assets/ZIoTS202505.glb";
+import ziots_android from "./assets/ZIoTS202505.glb";
+import ziots_ios from "./assets/ZIoTS202505.usdz";
+
 import "@google/model-viewer";
 import "./App.css";
 
@@ -8,7 +10,8 @@ function App() {
 			<div className='model-viewer-container'>
 				{/* model-viewer本体 */}
 				<model-viewer
-					src={ziots}
+					src={ziots_android}
+					ios-src={ziots_ios}
 					alt='ZIoTS設置モデル'
 					camera-controls
 					autoplay
