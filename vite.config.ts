@@ -5,5 +5,5 @@ const base = '/ZIoTS-promotional-xr/';
 export default defineConfig({
   plugins: [react()],
   base,
-  assetsInclude: ["**/*.glb"],
+  assetsInclude: ['**/*.glb', '**/*.usdz'],
 })
